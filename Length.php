@@ -24,7 +24,7 @@ switch ($Input2){
     break;
     case 2:
         $Password = base64_encode($Input);
-        echo("OKAY: $name, Password: $Password /n--- Goodbye!! ---\n");
+        echo("OKAY: $name, Password: $Password \n--- Goodbye!! ---\n");
         break;
     default;
         echo("I don't Know What it means try agin..\n");
